@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(247, 243, 3);
+    background-image: url(images.jpeg);
+    background-size: auto   ;
+}
+
+button{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0)
+}
+
+h1{
+    margin: 50px;
+    margin-left: 400px;
+    font-size: 50pt;
+    font-family: 'Times New Roman';
+    color: rgb(0, 0, 0);    
+}
+
+h2{
+    margin-left: 490px;
+}
+
+p{
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.botao-bala{
+    background-color: rgba(192, 146, 21, 0.781);
+    border-color: rgb(2, 14, 85);
+}
+
+.botao-chá{
+    background-color:  rgba(192, 146, 21, 0.781);
+    border-color: rgb(53, 0, 63);
+}
+
+.botao-quentão{
+    background-color:  rgba(192, 146, 21, 0.781);
+    border-color: darkred;
+}
+
+.botao-tempero{
+    background-color:  rgba(192, 146, 21, 0.781);
+    border-color: tomato;
+}
+
+.botao-cachaça{
+    background-color: rgba(192, 146, 21, 0.781);
+    border-color: rgb(167, 73, 10);
+}
+
+div{
+    background-color: rgb(102, 16, 5);
+    width: 380px;
+}
+div h3:first-child{
+   background-color: goldenrod;
+}
+
+div h3:last-child{
+background-color:orange;
+}
+
+div h3:nth-child(2){
+    background-color: gold;
+}
